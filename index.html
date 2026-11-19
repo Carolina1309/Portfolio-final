@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Silvina Carolina Carrizo, desarrolladora Full Stack en formación.">
+  <title>Silvina Carolina Carrizo | Portfolio Desarrolladora Full Stack</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Tipografías: Playfair Display (títulos) y Poppins (textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <header class="encabezado">
+    <div class="contenedor encabezado__contenido">
+      <a href="#sobre-mi" class="logo">Caro Carrizo</a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav__lista">
+          <li><a href="#sobre-mi" class="nav__enlace">Sobre mí</a></li>
+          <li><a href="#skills" class="nav__enlace">Skills</a></li>
+          <li><a href="#proyectos" class="nav__enlace">Proyectos</a></li>
+          <li><a href="#contacto" class="nav__enlace">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== CONTENIDO PRINCIPAL ===== -->
+  <main>
+
+    <!-- 1. SOBRE MÍ -->
+    <section id="sobre-mi" class="seccion seccion--clara sobre-mi">
+      <div class="contenedor sobre-mi__contenido">
+        <figure class="sobre-mi__foto">
+          <img src="assets/img/perfil.jpg"
+               alt="Foto de perfil de Silvina Carolina Carrizo, mujer de cabello largo rubio con blazer negro, sonriendo"
+               width="640" height="788">
+        </figure>
+
+        <div class="sobre-mi__texto">
+          <p class="etiqueta">¡Hola! Soy</p>
+          <h1 class="sobre-mi__nombre">Silvina Carolina Carrizo</h1>
+          <p class="sobre-mi__rol">Desarrolladora Full Stack en formación | Perfil orientado a la tecnología, la gestión y la innovación.</p>
+
+          <h2 class="titulo-seccion">Sobre mí</h2>
+          <p>Soy Carolina Carrizo (Caro), estudiante de Desarrollo Full Stack, apasionada por la tecnología, el diseño y la creación de soluciones digitales.</p>
+          <p>Cuento con experiencia en supervisión de equipos, gestión de objetivos, análisis de indicadores y liderazgo en entornos comerciales. Actualmente estoy ampliando mis conocimientos en desarrollo web, combinando mi experiencia profesional con la creatividad y el aprendizaje constante.</p>
+          <p>Me considero una persona proactiva, organizada y comprometida, con facilidad para adaptarme a nuevos desafíos y trabajar en equipo.</p>
+
+          <div class="sobre-mi__botones">
+            <a href="#proyectos" class="boton boton--principal">Ver proyectos</a>
+            <a href="#contacto" class="boton boton--secundario">Contactame</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SKILLS -->
+    <section id="skills" class="seccion seccion--oscura">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Skills</h2>
+
+        <div class="skills__grilla">
+          <div class="skills__grupo">
+            <h3 class="skills__subtitulo">Tecnologías y herramientas</h3>
+            <ul class="lista-chips">
+              <li class="chip">HTML</li>
+              <li class="chip">CSS</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">Bootstrap</li>
+              <li class="chip">Git</li>
+              <li class="chip">GitHub</li>
+              <li class="chip">Visual Studio Code</li>
+              <li class="chip">Claude AI</li>
+            </ul>
+          </div>
+
+          <div class="skills__grupo">
+            <h3 class="skills__subtitulo">Habilidades profesionales</h3>
+            <ul class="lista-chips">
+              <li class="chip">Liderazgo y gestión de equipos</li>
+              <li class="chip">Comunicación efectiva</li>
+              <li class="chip">Organización y planificación</li>
+              <li class="chip">Análisis de indicadores (KPIs)</li>
+              <li class="chip">Resolución de problemas</li>
+              <li class="chip">Creatividad y pensamiento estratégico</li>
+              <li class="chip">Adaptabilidad y aprendizaje continuo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. PROYECTOS -->
+    <section id="proyectos" class="seccion seccion--clara">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Proyectos</h2>
+
+        <div class="proyectos__grilla">
+          <article class="tarjeta">
+            <img src="assets/img/proyecto-portfoliodev.jpg"
+                 alt="Captura de Portfoliodev: barra de navegación violeta y foto de perfil circular con el saludo ¡Hola! Soy Carolina (Caro)"
+                 class="tarjeta__imagen" width="1200" height="540">
+            <div class="tarjeta__cuerpo">
+              <h3 class="tarjeta__titulo">Portfoliodev</h3>
+              <p class="tarjeta__descripcion">Mi primer portfolio web, hecho desde cero con HTML semántico, CSS con variables, Flexbox y Grid. Diseño responsive y publicado en Netlify.</p>
+              <ul class="tarjeta__tecnologias">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Netlify</li>
+              </ul>
+              <div class="tarjeta__enlaces">
+                <a href="https://caro-dev.netlify.app/" target="_blank" rel="noreferrer" class="boton boton--principal">Ver sitio</a>
+                <a href="https://github.com/Carolina1309/Portfoliodev" target="_blank" rel="noreferrer" class="boton boton--secundario">Ver código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="assets/img/proyecto-registro.svg"
+                 alt="Ilustración de un formulario de registro con el texto Próximamente"
+                 class="tarjeta__imagen tarjeta__imagen--centrada" width="1200" height="540">
+            <div class="tarjeta__cuerpo">
+              <h3 class="tarjeta__titulo">Sistema de Registro y Bienvenida <span class="insignia">Próximamente</span></h3>
+              <p class="tarjeta__descripcion">Aplicación web de dos pantallas: registro de usuario con validaciones, sesión guardada con localStorage y pantalla de bienvenida personalizada.</p>
+              <ul class="tarjeta__tecnologias">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="tarjeta__enlaces">
+                <a href="https://github.com/Carolina1309" target="_blank" rel="noreferrer" class="boton boton--secundario">Ver mi GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. CONTACTO -->
+    <section id="contacto" class="seccion seccion--oscura">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <p class="contacto__intro">¿Tenés una propuesta o querés charlar? Escribime por el formulario o por mis redes.</p>
+
+        <div class="contacto__grilla">
+          <form class="formulario" action="#" method="post">
+            <div class="formulario__campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="formulario__campo">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="formulario__campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="boton boton--principal">Enviar mensaje</button>
+          </form>
+
+          <ul class="contacto__enlaces">
+            <li>
+              <a href="mailto:silvinacaro13@gmail.com" class="contacto__enlace">
+                <span class="contacto__tipo">Email</span>
+                silvinacaro13@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5493814025519" target="_blank" rel="noreferrer" class="contacto__enlace">
+                <span class="contacto__tipo">WhatsApp</span>
+                381 402-5519
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/silvinacarolinacarrizo" target="_blank" rel="noreferrer" class="contacto__enlace">
+                <span class="contacto__tipo">LinkedIn</span>
+                silvinacarolinacarrizo
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Carolina1309" target="_blank" rel="noreferrer" class="contacto__enlace">
+                <span class="contacto__tipo">GitHub</span>
+                Carolina1309
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="pie">
+    <div class="contenedor pie__contenido">
+      <p>© 2026 Silvina Carolina Carrizo. Todos los derechos reservados.</p>
+      <ul class="pie__enlaces">
+        <li><a href="https://github.com/Carolina1309" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/silvinacarolinacarrizo" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        <li><a href="#sobre-mi">Volver arriba ↑</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
